@@ -1,0 +1,54 @@
+.container{
+    max-width: 50%;
+    margin: 50px auto; 
+    text-align: center;
+    background-color: #f3f3f3;
+    display: block;
+    padding: 20px;
+    border-radius: 8px;
+    height: 600px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: inline-block; /* Giriş alanlarının yan yana sıralanmasını sağlar */
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+}
+
+textarea {
+    resize: vertical; /* Yatay yeniden boyutlandırmayı devre dışı bırakır */
+}
+
+button[type="submit"] {
+    margin-top: 20px; 
+    background-color: #333; 
+    color: #fff; /* Metin rengi */
+    border: 2px solid #333; /* Kenarlık */
+    padding: 12px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Geçiş efekti */
+    border-radius: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: #4dac42; /* Fare üzerine gelindiğinde arka plan rengi */
+    border-color: #0c5304; /* Fare üzerine gelindiğinde kenarlık rengi */
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333; 
+    font-weight: bold; 
+}
